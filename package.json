@@ -6,6 +6,9 @@
     "build": "tz build",
     "dev": "tz build --watch"
   },
+  "files": [
+    "dist/"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {

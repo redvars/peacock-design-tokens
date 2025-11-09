@@ -5,7 +5,7 @@ import pluginSASS from "@terrazzo/plugin-sass";
 
 export default defineConfig({
   tokens: ["./tokens.json"],
-  outDir: "./tokens/",
+  outDir: "./dist/",
 
   plugins: [
     pluginCSS(), // generate .css files
